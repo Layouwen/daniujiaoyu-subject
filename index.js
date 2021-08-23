@@ -49,7 +49,7 @@ const main = () => {
     })
   }
 
-  let toolsHTML = `<div class="tools-wrapper">`
+  let toolsHTML = `<div class="tools-wrapper"><h1>选择你要忽略的学科</h1>`
   subjectData.forEach(subject => {
     toolsHTML += `<label class="subjectItem"><input type="checkbox" value="${subject.value}" ${
       subject.status ? 'checked' : ''
